@@ -22,7 +22,7 @@ public class CadastroService {
 
     public Optional<Cadastro> findById(@PathVariable Long id) {
         Optional<Cadastro> optionalCadastro = cadastroRepository.findById(id);
-         return optionalCadastro; // Retorna null se não encontrar o cadastro
+         return optionalCadastro;
     }
 
 
