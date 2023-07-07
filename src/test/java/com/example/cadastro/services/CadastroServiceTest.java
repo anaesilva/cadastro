@@ -39,7 +39,7 @@ public class CadastroServiceTest {
     void getAllCadastro() {
         List<Cadastro> mockCadastros = new ArrayList<>();
         mockCadastros.add(new Cadastro(1L, "carlos", "02824106061", "carlos@example.com"));
-        mockCadastros.add(new Cadastro(1L, "maria", "92824106061", "maria@example.com"));
+        mockCadastros.add(new Cadastro(2L, "maria", "92824106061", "maria@example.com"));
 
       when(repository.findAll()).thenReturn(mockCadastros);
 
